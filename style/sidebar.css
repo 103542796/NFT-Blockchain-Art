@@ -1,0 +1,40 @@
+  .sidebar {
+    height: 100%;
+    width: 180px; 
+    position: absolute; 
+    left: 0;
+    background-image: linear-gradient(to right top, #4099d4, #00aad9, #00b9cb, #00c4ab, #2bcc81);
+    padding-top: 20px;
+    border-radius: 15px;
+  }
+  
+  #menu {
+    font-size: 17px;
+    color: white ;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 60px 15px 60px;
+  }
+  /* The navigation menu links */
+  .sidebar a {
+    /* padding: 6px 8px 6px 16px; */
+    padding: 15px 0px 15px 40px ;
+    text-decoration: none;
+    font-size: 17px;
+    color: white ;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    background-color: #6666FF;
+    color: whitesmoke;
+    font-weight: bold;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  /* @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  } */

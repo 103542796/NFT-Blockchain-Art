@@ -1,0 +1,104 @@
+.container {
+    width: 100%;
+}
+ 
+.heading{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.history{
+    background-color: #E5E5E5;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 150px;
+    padding: 1%;
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#filter-btn{
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+  
+.clearfix {
+    clear: both;
+    margin-top: 25%;
+}
+
+.prodname {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.price{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:gold;
+    font-weight: bold;
+}
+
+.cover{
+    /* margin: 0 auto; */
+    margin-top: 5%;
+    width: 100px;
+    height: 80px;
+}
+
+.container2 {
+    display: flex;
+}
+  
+.left-column2 {
+    float: left;
+    width: 50%;
+}
+
+.buying{
+    color:black;
+    text-decoration: none;
+}
+
+.buying:hover{
+    color:#6666FF;
+}
+
+
+/***PAGINATION***/
+.pagination {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #333;
+}
+
+.pagination a.active {
+    background-color: #333;
+    color: #fff;
+}
+
+.pagination a:hover {
+    background-color: #eee;
+}

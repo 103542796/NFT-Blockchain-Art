@@ -1,0 +1,68 @@
+#logo-img {
+    height: 100px;
+    width: 180px;
+}
+
+.taskbar, .search-bar, .other-btn
+{
+    display: inline-block;
+}
+
+.icon-btn
+{
+    padding-left: 40px;
+    padding-right: 40px;  
+    background: none;
+    border: none;  
+    font-size: 25px;
+}
+
+#search
+{
+    background-color: white;
+    width: 400px;
+    border-radius: 15px;
+    padding-left: 30px;
+    box-shadow: 1px 1px grey;
+    border: 1px solid black;
+}
+
+#search-btn
+{
+    border: none;
+    background: none;
+    color: white;
+}
+
+.search-bar{
+    padding-right: 150px;
+}
+
+#wallet-btn{
+    font-size: 15px;
+    background-color: orange;
+    border: 1px solid black;
+    color: white;
+    border-radius: 15px;
+}
+
+.other-btn
+{
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 33px;
+    background-image: linear-gradient(to right top, #4099d4, #00aad9, #00b9cb, #00c4ab, #2bcc81);
+}
+
+.other-btn a {
+    text-decoration: none;
+    font-style: normal;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.other-btn a:hover {
+    font-weight: bold;
+}
+
